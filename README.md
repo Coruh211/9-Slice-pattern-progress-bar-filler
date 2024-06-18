@@ -4,7 +4,7 @@ Here's a brief overview of its functionality:
 - The LoadingFill method fills the progress bar over a specified time and calls an optional onComplete action when finished.  
 - The UpdateBarFill method updates the progress bar fill based on the current and maximum values over a specified time and calls an optional onComplete action when finished.  
 - The SetProgressText method sets the progress bar text depending on the TextType. If TextType is Percent, the text will be in percent format. If TextType is Value, the text will be in the format of the current/maximum value.
-- 
-This class is likely used in a game or application where visual progress bars are needed to display the progress of a task or operation to the user.
+
+This class is used in a game or application where the 9-Slice pattern is used and visual progress bars are needed to show the user the progress of a task or operation.
 
 Important, the script uses DOTween, you need to install it.
